@@ -1,0 +1,53 @@
+.why-choose-us {
+  padding: 80px 20px;
+  background-color: #121212;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.reasons-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.reason {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.reason:hover {
+  background-color: #282828;
+  transform: translateY(-10px);
+}
+
+.reason-icon {
+  font-size: 3rem;
+  color: #ff6b6b;
+  margin-bottom: 20px;
+}
+
+.reason h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.reason p {
+  font-size: 1rem;
+  color: #c0c0c0;
+}

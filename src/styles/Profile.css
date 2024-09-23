@@ -1,0 +1,102 @@
+.profile-page {
+    padding: 60px 20px;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile-header h2 {
+    color: #ffffff;
+    font-size: 2rem;
+  }
+  
+  .edit-btn {
+    background-color: #28a745;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-btn:hover {
+    background-color: #218838;
+  }
+  
+  .profile-details,
+  .donation-history,
+  .campaigns-supported,
+  .account-settings {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    color: #c0c0c0;
+    margin-bottom: 10px;
+  }
+  
+  .donation-item,
+  .campaign-item {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .disconnect-btn {
+    background-color: #dc3545;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .disconnect-btn:hover {
+    background-color: #c82333;
+  }
+  
+  input[type='text'], input[type='email'] {
+    width: 100%;
+    padding: 10px;
+    /* margin: 10px 0; */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #28a745;
+  }
+  
+  @media (max-width: 768px) {
+    .profile-page {
+      padding: 40px 15px;
+    }
+    
+    .profile-header h2 {
+      font-size: 1.8rem;
+    }
+  }
+  

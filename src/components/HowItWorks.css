@@ -1,0 +1,54 @@
+.how-it-works {
+    padding: 80px 20px;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .how-it-works h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #ffffff;
+  }
+  
+  .steps-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  
+  .step {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .step:hover {
+    background-color: #353535;
+    transform: translateY(-10px);
+  }
+  
+  .step-icon {
+    font-size: 3rem;
+    color: #28a745;
+    margin-bottom: 20px;
+  }
+  
+  .step h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+  }
+  
+  .step p {
+    font-size: 1rem;
+    color: #c0c0c0;
+  }
+  

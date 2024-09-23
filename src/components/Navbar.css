@@ -1,0 +1,120 @@
+.custom-navbar {
+  background: url('background.jpeg');
+  border-radius: 20px;
+  padding: 15px 30px;
+  margin: 20px auto;
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7); /* For transparency */
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items li {
+  font-size: 1.5vw;
+  font-weight: 500;
+  margin: 0 1vw;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.nav-items li:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.nav-items a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.inactive-link {
+  color: #f0f0f0;
+}
+
+.active-link {
+  color: rgb(136, 255, 0);
+  font-size: 15px;
+}
+
+.nav-items a:hover {
+  color: #9da7b5;
+  font-weight: 100;
+}
+
+.wallet-container {
+  position: relative;
+}
+
+.wallet-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.wallet-button:hover {
+  background-color: #218838;
+}
+
+.disconnect-button {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 110%;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: none; /* Initially hidden */
+}
+
+.disconnect-button:hover {
+  background-color: darkred;
+}
+
+.wallet-container:hover .disconnect-button {
+  display: block; /* Display on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .custom-navbar {
+      max-width: 100%;
+      padding: 0px 5px;
+      margin: 10px auto;
+  }
+
+  .nav-items {
+    position: relative;
+    gap: 0px;
+  }
+
+  .nav-items li {
+      font-size: 10px;
+  }
+
+  .wallet-button {
+      padding: 3px 8px;
+  }
+  .active-link{
+    font-size: 15px;
+  }
+  .active-link:hover{
+    font-size: 13px;
+  }
+}

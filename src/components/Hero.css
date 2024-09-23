@@ -1,0 +1,47 @@
+.hero {
+    color: #beb4b4; /* Light gray for text */
+    padding: 100px 20px; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 2.5rem; /* Adjust size as needed */
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+
+.hero p {
+    font-size: 1.2rem; /* Adjust size as needed */
+    margin-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+}
+
+.btn-start, .btn-explore {
+    background-color: #28a745; /* Bright green */
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: cursive;
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none;
+}
+.btn-explore{
+    background-color: #007bff; /* Bright green */
+}
+.btn-start:hover, .btn-explore:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    color: #ffffff;
+}

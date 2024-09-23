@@ -1,0 +1,63 @@
+.footer {
+    background-color: #000000;
+    padding: 20px;
+    color: #f0f0f0;
+    text-align: center;
+    width: 100%; /* Ensure it fits the width of the screen */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    max-width: 1200px; /* Optional: Limit the footer's content width */
+    margin: 0 auto; /* Center the footer content */
+    width: 100%;
+    flex-wrap: wrap; /* Make it responsive on smaller screens */
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; /* Ensure links wrap on smaller screens */
+  }
+  
+  .footer-links a {
+    color: #f0f0f0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #28a745;
+  }
+  
+  .footer-social {
+    display: flex;
+    gap: 15px;
+    justify-content: center; /* Ensure icons are centered */
+  }
+  
+  .footer-social a {
+    color: #f0f0f0;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: #007bff;
+  }
+  
+  .footer-bottom {
+    padding: 10px 0;
+    border-top: 1px solid #333;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
